@@ -1,6 +1,6 @@
-## Stanley
+## Matchley
 
-This is the source for my autonomous drone project, Stanley.
+This is the source for my autonomous drone project, Matchley, based similarly named project "Stanley."
 
 It makes use of the OAK-D Lite for detecting people with depth (TinyYOLO v4), and then uses a subsumption architecture to send control signals
 via MAVLink to a drone to follow the closest person.
@@ -87,7 +87,7 @@ At this point, all the dependencies are installed, and you can grab this repo wi
 
 ```bash
 cd ~
-git clone https://github.com/Matchstic/stanley.git
+git clone https://github.com/outoftheash/Matchley.git
 ```
 
 If you're using MAVProxy already on the system, make sure to start it with `--out 127.0.0.1:14550`. Then, you can run `python3.9 src/main.py --uri 127.0.0.1:14550`. If not, connect directly to the serial port with e.g. `python3.9 src/main.py --uri /dev/ttyTHS1`
