@@ -44,7 +44,7 @@ python sitl.py
 
 This will then start the backend. If the frontend UI doesn't connect automatically, hit refresh in your browser. Data should eventually start coming through - there likely will be a delay before it starts.
 
-Please note: the compiled version of ArduPilot 4.1 (`.dronekit/arducopter`) is for macOS. You will likely need to change `sitl.py` to use one for Windows or Linux as required.
+Please note: the compiled version of ArduPilot 4.1 (`.dronekit/arducopter`) is for macOS. You will likely need to change `sitl.py` to use one for Windows or Linux as required (aka recomplie).
 
 ### Testing (integration tests)
 
