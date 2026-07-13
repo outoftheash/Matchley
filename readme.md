@@ -7,9 +7,7 @@ via MAVLink to a drone to follow the closest person.
 
 The full project is intended to run on an NVIDIA Jetson Nano, but should work on any platform that can talk via MAVLink, and can run `depthai`.
 
-- INFO: This project is very much work-in-progress. It should be functional, but be prepared to dive into the code to fix things.
-- **WARNING**: I take no responsibility if you run any of this code on your own drone. You do so at your own risk.
-
+- INFO: This project is OLD running 4 year old code. I'd highly recommend venv all your code to prevent dependency conflicts.
 ### Getting Started
 
 I went through the process here to setup my own drone: https://docs.luxonis.com/en/latest/pages/tutorials/first_steps/
