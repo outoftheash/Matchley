@@ -33,7 +33,8 @@ yarn install
 yarn serve
 ```
 
-This will start the visualiser UI, which will be available on `localhost:8080`. This communicates via WebSockets to the SITL backend, which runs the `Core` class internally, as well as a mocked camera instance.
+This will start the visualiser UI, which will be available on `localhost:8080`. This communicates via WebSockets to the SITL backend, which runs the `Core` class internally, as well as a mocked camera instance. 
+NOTE: MAKE SURE TO HAVE A MAPBOX API KEY. Create a file named `.env` then enter in your key `
 
 Then, in the other terminal window, run 
 
