@@ -1,13 +1,13 @@
 ## Matchley
 
-This is the source for my autonomous drone project, Matchley, based similarly named project "Stanley."
+This is the source for my autonomous drone project, Matchley, based similarly named project "Stanley," but updated to run a Jetson Orin Nano.
 
 It makes use of the OAK-D Lite for detecting people with depth (TinyYOLO v4), and then uses a subsumption architecture to send control signals
 via MAVLink to a drone to follow the closest person.
 
-The full project is intended to run on an NVIDIA Jetson Nano, but should work on any platform that can talk via MAVLink, and can run `depthai`.
+**- INFO: This project is OLD running 4 year old code. I'd highly recommend venv all your code to prevent dependency conflicts.
+**
 
-- INFO: This project is OLD running 4 year old code. I'd highly recommend venv all your code to prevent dependency conflicts.
 ### Getting Started
 
 I went through the process here to setup my own drone: https://docs.luxonis.com/en/latest/pages/tutorials/first_steps/
